@@ -10,13 +10,18 @@ int main()
 
     // Variaveis para a Carta 1
     char Estado1[50], Codigo1[50], Cidade1[50];
-    int Populacao1, Pontos1;
+    unsigned long int Populacao1;
+    int Pontos1;
     float Area1, PIB1, PIBper1, Densidade1;
+    float SUPERPODER1;
 
     // Variaveis para a Carta 2
     char Estado2[50], Codigo2[50], Cidade2[50];
-    int Populacao2, Pontos2;
+    unsigned long int Populacao2;
+    int Pontos2;
     float Area2, PIB2, PIBper2, Densidade2;
+    float SUPERPODER2;
+
 
     // Área para exibição do título do desafio
     printf("DESAFIO SUPER TRUNFO - PAÍSES\n");
@@ -35,7 +40,7 @@ int main()
     scanf("%s", Cidade1);
 
     printf("Digite a população da sua carta:\n");
-    scanf("%d", &Populacao1);
+    scanf("%lu", &Populacao1);
 
     printf("Digite o número de pontos turísticos da sua carta:\n");
     scanf("%d", &Pontos1);
@@ -63,7 +68,7 @@ int main()
     scanf("%s", Cidade2);
 
     printf("Digite a população da sua carta:\n");
-    scanf("%d", &Populacao2);
+    scanf("%lu", &Populacao2);
 
     printf("Digite o número de pontos turísticos da sua carta:\n");
     scanf("%d", &Pontos2);
@@ -87,7 +92,7 @@ int main()
     printf("Estado:%s\n", Estado1);
     printf("Código:%s\n", Codigo1);
     printf("Cidade:%s\n", Cidade1);
-    printf("População:%d\n", Populacao1);
+    printf("População:%lu\n", Populacao1);
     printf("Pontos Turísticos:%d\n", Pontos1);
     printf("Área:%.2f km²\n", Area1);
     printf("PIB:%.2f bilhões de reais\n", PIB1);
@@ -99,7 +104,7 @@ int main()
     printf("Estado:%s\n", Estado2);
     printf("Código:%s\n", Codigo2);
     printf("Cidade:%s\n", Cidade2);
-    printf("População:%d\n", Populacao2);
+    printf("População:%lu\n", Populacao2);
     printf("Pontos Turísticos:%d\n", Pontos2);
     printf("Área:%.2f km²\n", Area2);
     printf("PIB:%.2f bilhões de reais\n", PIB2);
