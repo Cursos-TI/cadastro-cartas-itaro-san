@@ -214,11 +214,11 @@ int main()
 
     if (SUPERPODER1 > SUPERPODER2)
     {
-        printf("A Carta 1 é a vencedora com maior Super Poder !\n", SUPERPODER1);
+        printf("A Carta 1 é a vencedora com maior Super Poder !\n");
     }
     else if (SUPERPODER2 > SUPERPODER1)
     {
-        printf("A Carta 2 é a vencedora com maior Super Poder!\n", SUPERPODER2);
+        printf("A Carta 2 é a vencedora com maior Super Poder!\n");
     }
     else
     {
